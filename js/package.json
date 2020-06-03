@@ -1,0 +1,36 @@
+{
+  "name": "Tile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles --watchAll --verbose",
+    "start": "node index.js"
+  },
+  "engins": {
+    "node": "13.9.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.7",
+    "compression": "^1.7.4",
+    "config": "^3.2.4",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^3.21.3",
+    "jest": "^25.1.0",
+    "joi": "^14.3.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0",
+    "mongoose": "^5.7.10",
+    "winston": "^2.*",
+    "winston-mongodb": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4",
+    "supertest": "^4.0.2"
+  }
+}
